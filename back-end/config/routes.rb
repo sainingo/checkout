@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get 'products' => 'products#index'
       get 'category' => 'category#index'
+      get 'promoters' => 'promoters#index'
     end
   end
   post 'authenticate', to: 'authentication#authenticate'
