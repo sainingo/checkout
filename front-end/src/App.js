@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+import ProductFeeds from "./components/ProductFeeds";
+import data from "./assets/data";
 
 function App() {
   return (
     <div >
-     <h1>Hello</h1>
+     <Header />
+     <ProductFeeds data={data}/>
     </div>
   );
 }
